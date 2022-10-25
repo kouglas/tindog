@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+/* typography */
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+h4 {
+    font-size: 1.50rem;
+    line-height: 36px;
+    margin-bottom: -1%;
+}
+
+.dog-bio {
+    font-weight: 200;
+    color: #B7B7B7;
+    line-height: 32px;;
+}
+
+/* layout */
+
+header {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#profile, #chat {
+    max-height: 34px;
+    max-width: 34px;
+}
+
+#logo {
+    max-height: 42px;
+    max-width: 84px;
+}
+
+#card .dog-img {
+    margin-top: 3%;
+    width: 100%;
+    border-radius: 10px;  
+}
+
+#card {
+    position: relative;
+    width: 100%;
+}
+
+.dog-info {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 10px;
+}
+
+/* badges */
+#like, #nope {
+    display: none;
+    position: absolute;
+    height: 65px;
+    left: 160px;
+    top: 100px;
+    transform: rotate(-25deg);
+}
+
+
+
+/* buttons */
+.actions {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    
+}
+
+#reject-button, #accept-button {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px 0px #E9E9EA;
+    border:  #fff;
+    background-color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+#accept-button img {
+    height: 25px;
+}
+
+#accept-button:hover {
+    background-color: #DBFFF4;
+    box-shadow: 0px 10px 20px 0px #CCF1E6;
+
+}
+
+/* #accept-button::after {
+    background-color:#DBFFF4 ;
+    box-shadow: 0px 10px 20px 0px #CCF1E6;
+} */
+
+#reject-button img {
+    height: 25px;
+}
+
+#reject-button:hover {
+    background-color: #FFE7EF;
+    box-shadow: 0px 10px 20px 0px #EDD9DF;
+
+}
+
+/* #reject-button:after {
+    background-color: #FFE7EF;
+    box-shadow: 0px 10px 20px 0px #EDD9DF;
+
+} */
+
+/* 
+hi if you are ever returning to this project then
+fix the actions buttons, they should stay highlighted
+after click 
+ */
